@@ -88,7 +88,10 @@ at runtime to determine the language that a string has been annotated with.
 ## Release Notes
 
 ### [0.0.4] - 2024-10-17
-- Forked from v0.0.4
+- Make the space between `:` optional. [#3](https://github.com/samwillis/python-inline-source/issues/3).
+
+### [0.0.3] - 2024-10-17
+- Forked from v0.0.2
 
 ## Dev notes
 

@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='sourcetypes2',
-    version='0.0.4',
+    version='0.0.5',
     author="Juro Oravec",
     description="Python Source Code Types For Inline Syntax Highlighting",
     long_description=long_description,

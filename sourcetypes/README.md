@@ -83,6 +83,9 @@ my_html_string: html = """
 
 ## Release Notes
 
+### [0.0.5] - 2024-10-17
+- Add `py.typed`. [#4](https://github.com/samwillis/python-inline-source/pull/4)
+
 ### [0.0.4] - 2024-10-17
 - Forked from v0.0.4
 

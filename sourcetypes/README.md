@@ -1,7 +1,17 @@
 # Python Source Code Types For Inline Syntax Highlighting
 
+> The original [Python Inline Source](https://github.com/samwillis/python-inline-source) by Sam Willis
+> is no longer maintained. Please raise your issues and questions in
+> [jurooravec/python-inline-source-2](https://github.com/jurooravec/python-inline-source-2).
+>
+> The PyPI package and VSCode extension have also been migrated:
+> - PyPI: [sourcetypes](https://pypi.org/project/sourcetypes/) -> [sourcetypes2](https://pypi.org/project/sourcetypes2/)
+> - VSCode: [samwillis.python-inline-source](https://marketplace.visualstudio.com/items?itemName=samwillis.python-inline-source) -> [jurooravec.python-inline-source-2](https://marketplace.visualstudio.com/items?itemName=jurooravec.python-inline-source-2)
+>
+> This fork is based on [v0.0.4](https://github.com/samwillis/python-inline-source/releases/tag/v0.0.4).
+
 Type annotations for various languages, when applied to multi line strings will syntax 
-highlighting with the `python-inline-source` VS Code plugin.
+highlighting with the `python-inline-source-2` VS Code plugin.
 
 Supports `html`, `css`, `javascript`, `typescript`, `sql`, `graphql`, 
 multiple *css extension languages*, *template languages* and many more, 
@@ -17,7 +27,7 @@ On Python versions prior to 3.9 uses [typing_extensions](https://pypi.org/projec
 ## Installation
 
 ```
-pip install sourcetypes
+pip install sourcetypes2
 ```
 
 ## Example
@@ -73,8 +83,5 @@ my_html_string: html = """
 
 ## Release Notes
 
-### [0.0.2] - 2022-03-13
-- Doc tweaks
-
-### [0.0.1] - 2022-03-11
-- Alpha release
+### [0.0.4] - 2024-10-17
+- Forked from v0.0.4

@@ -2,17 +2,17 @@ from setuptools import setup
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-    img_url = "https://raw.githubusercontent.com/samwillis/python-inline-source/main/sourcetypes/docs/examples.png"
+    img_url = "https://raw.githubusercontent.com/jurooravec/python-inline-source-2/main/sourcetypes/docs/examples.png"
     long_description = long_description.replace("(docs/examples.png)", f"({img_url})")
 
 setup(
-    name='sourcetypes',
+    name='sourcetypes2',
     version='0.0.4',
-    author="Sam Willis",
+    author="Juro Oravec",
     description="Python Source Code Types For Inline Syntax Highlighting",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/samwillis/python-inline-source/sourcetypes",
+    url="https://github.com/jurooravec/python-inline-source-2/sourcetypes",
     py_modules=['sourcetypes'],
     classifiers=[
         "Programming Language :: Python :: 3",

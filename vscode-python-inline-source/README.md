@@ -1,5 +1,15 @@
 # Python Inline Source Syntax Highlighting
 
+> The original [Python Inline Source](https://github.com/samwillis/python-inline-source) by Sam Willis
+> is no longer maintained. Please raise your issues and questions in
+> [jurooravec/python-inline-source-2](https://github.com/jurooravec/python-inline-source-2).
+>
+> The PyPI package and VSCode extension have also been migrated:
+> - PyPI: [sourcetypes](https://pypi.org/project/sourcetypes/) -> [sourcetypes2](https://pypi.org/project/sourcetypes2/)
+> - VSCode: [samwillis.python-inline-source](https://marketplace.visualstudio.com/items?itemName=samwillis.python-inline-source) -> [jurooravec.python-inline-source-2](https://marketplace.visualstudio.com/items?itemName=jurooravec.python-inline-source-2)
+>
+> This fork is based on [v0.0.4](https://github.com/samwillis/python-inline-source/releases/tag/v0.0.4).
+
 VS Code plugin to add syntax highlight to multi line Python strings using type 
 annotations. Supports `html`, `css`, `javascript`, `typescript`, `sql`, `graphql`, 
 multiple *css extension languages*, *template languages* and many more, 
@@ -7,10 +17,10 @@ multiple *css extension languages*, *template languages* and many more,
 
 ## Installation
 
-Install `python-inline-source` from extensions (`ctrl + shift + x` or `cmd + shift + x` 
+Install `python-inline-source-2` from extensions (`ctrl + shift + x` or `cmd + shift + x` 
 on mac).
 
-Also available on [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=samwillis.python-inline-source)
+Also available on [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=jurooravec.python-inline-source-2)
 
 ## Example
 
@@ -77,8 +87,5 @@ at runtime to determine the language that a string has been annotated with.
 
 ## Release Notes
 
-### [0.0.2] - 2022-03-13
-- Doc tweaks
-
-### [0.0.1] - 2022-03-11
-- Alpha release
+### [0.0.4] - 2024-10-17
+- Forked from v0.0.4

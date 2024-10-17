@@ -1,4 +1,6 @@
-import os, json, re
+import os
+import json
+import re
 
 directory = os.path.dirname(os.path.realpath(__file__))
 

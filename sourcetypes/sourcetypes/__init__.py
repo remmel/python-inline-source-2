@@ -58,4 +58,3 @@ graphql = Annotated[source_code, 'graphql']
 xml = Annotated[source_code, 'xml']
 
 python = Annotated[source_code, 'python']
-

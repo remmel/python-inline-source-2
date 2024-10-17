@@ -13,8 +13,9 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jurooravec/python-inline-source-2/tree/main/sourcetypes",
-    py_modules=['sourcetypes'],
+    packages=['sourcetypes'],
     package_data={'sourcetypes': ['py.typed']},
+    include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

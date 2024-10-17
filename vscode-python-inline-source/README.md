@@ -89,3 +89,23 @@ at runtime to determine the language that a string has been annotated with.
 
 ### [0.0.4] - 2024-10-17
 - Forked from v0.0.4
+
+## Dev notes
+
+See https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
+```sh
+npm install -g @vscode/vsce
+```
+
+Packaging:
+
+```sh
+vsce package
+```
+
+Publishing:
+
+```sh
+vsce publish
+```

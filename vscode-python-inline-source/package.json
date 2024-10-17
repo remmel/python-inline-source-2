@@ -1,8 +1,8 @@
 {
     "name": "python-inline-source-2",
-    "displayName": "Python Inline Source Syntax Highlighting",
+    "displayName": "Python Inline Source Syntax Highlighting 2",
     "description": "Inline syntax highlighting for Python using type hints.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "jurooravec",
     "engines": {
         "vscode": "^1.64.0"

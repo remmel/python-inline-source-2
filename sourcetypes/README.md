@@ -85,3 +85,23 @@ my_html_string: html = """
 
 ### [0.0.4] - 2024-10-17
 - Forked from v0.0.4
+
+## Dev notes
+
+Install twine and build
+
+```sh
+pip install twine build
+```
+
+Packaging:
+
+```sh
+python -m build --sdist --wheel --outdir dist/ .
+```
+
+Publishing:
+
+```sh
+twine upload --repository pypi dist/* -u __token__ -p <pypi-token>
+```

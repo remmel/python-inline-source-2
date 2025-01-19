@@ -57,7 +57,8 @@
                     "meta.embedded.inline.yaml": "yaml",
                     "meta.embedded.inline.graphql": "graphql",
                     "meta.embedded.inline.xml": "xml",
-                    "meta.embedded.inline.python": "python"
+                    "meta.embedded.inline.python": "python",
+                    "meta.embedded.inline.glsl": "glsl"
                 }
             }
         ]

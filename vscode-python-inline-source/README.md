@@ -80,6 +80,7 @@ at runtime to determine the language that a string has been annotated with.
 - `graphql`
 - `xml`
 - `python`
+- `glsl`
 
 ## Requirements
 

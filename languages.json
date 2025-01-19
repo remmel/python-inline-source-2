@@ -108,5 +108,10 @@
         "match": "python",
         "contentName": "meta.embedded.inline.python",
         "include": "source.python"
+    },
+    "glsl": {
+        "match": "glsl",
+        "contentName": "meta.embedded.inline.glsl",
+        "include": "source.glsl"
     }
 }
